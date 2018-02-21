@@ -98,7 +98,7 @@ href="<?php $this->permalink() ?>"<?php };?>><?php $this->title() ?></a>
                     <div class="postShorten-meta">
     <time itemprop="datePublished" content="<?php $this->date('Y-m-j  H:i'); ?>">
 	
-		     <?php $this->date('M d,Y'); ?>
+		     <?php $this->date('M d, Y'); ?>
     	
     </time>
     
@@ -106,7 +106,7 @@ href="<?php $this->permalink() ?>"<?php };?>><?php $this->title() ?></a>
         
     <a class="category-link"><?php $this->category(',', true, '木有分类或者该分类已被删除'); ?></a>
 <?php if ($this->options->jsq == '0'): ?><?php else: ?>
-  <span>read (<?php if ($this->options->jsq == '1'): ?><?php get_post_view($this) ?><?php endif; ?><?php if ($this->options->jsq == '2'): ?><?php $this->viewsNum(); ?><?php endif; ?>)</span> 
+  <span> read (<?php if ($this->options->jsq == '1'): ?><?php get_post_view($this) ?><?php endif; ?><?php if ($this->options->jsq == '2'): ?><?php $this->viewsNum(); ?><?php endif; ?>) </span> 
 <?php endif; ?>
 
   <?php if($this->user->hasLogin()):?>

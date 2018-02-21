@@ -27,10 +27,10 @@ text-center<?php else: ?>text-left<?php endif; ?>
     <a class="category-link" ><?php if($this->is('post')): ?><?php $this->category(',', true, '木有分类或者该分类已被删除'); ?><?php else: ?><?php $this->title() ?><?php endif;?></a> <span>lang </span>
             <a class="category-link"    id="translateLink" href="javascript:translatePage();">繁</a> 
 <?php if ($this->options->jsq == '0'): ?><?php else: ?>
-  <span>read (<?php if ($this->options->jsq == '1'): ?><?php get_post_view($this) ?><?php endif; ?><?php if ($this->options->jsq == '2'): ?><?php $this->viewsNum(); ?><?php endif; ?>)</span> 
+  <span>read (<?php if ($this->options->jsq == '1'): ?><?php get_post_view($this) ?><?php endif; ?><?php if ($this->options->jsq == '2'): ?><?php $this->viewsNum(); ?><?php endif; ?>) </span> 
 <?php endif; ?>
            <?php if($this->user->hasLogin()):?>
-  <a href="<?php $this->options->adminUrl(); ?>write-<?php if($this->is('post')): ?>post<?php else: ?>page<?php endif; ?>.php?cid=<?php echo $this->cid;?>" class="category-link"  target="_blank"><?php if ($this->options->cdl == '0'): ?>Edit<?php endif; ?><?php if ($this->options->cdl == '1'): ?>编辑<?php endif; ?></a>
+  <a href="<?php $this->options->adminUrl(); ?>write-<?php if($this->is('post')): ?>post<?php else: ?>page<?php endif; ?>.php?cid=<?php echo $this->cid;?>" class="category-link"  target="_blank"><?php if ($this->options->cdl == '0'): ?> Edit<?php endif; ?><?php if ($this->options->cdl == '1'): ?>编辑<?php endif; ?></a>
 <?php endif;?>
 </div>
 </div> </div><?php endif; ?>
@@ -58,16 +58,16 @@ text-center<?php else: ?>text-left<?php endif; ?>">
     <div class="post-meta">
     <time itemprop="datePublished" content="<?php $this->date('Y-m-j  H:i:s'); ?>">
 	
-		 <?php $this->date('M d,Y'); ?>
+		 <?php $this->date('M d, Y'); ?>
     	
     </time>
     
         <span>in </span>
         
-    <a class="category-link" ><?php if($this->is('post')): ?><?php $this->category(',', true, '木有分类或者该分类已被删除'); ?><?php else: ?><?php $this->title() ?><?php endif;?></a> <span>lang </span>
+    <a class="category-link" ><?php if($this->is('post')): ?><?php $this->category(',', true, '木有分类或者该分类已被删除'); ?><?php else: ?><?php $this->title() ?><?php endif;?></a> <span> lang </span>
             <a class="category-link"    id="translateLink" href="javascript:translatePage();">繁</a> 
          <?php if ($this->options->jsq == '0'): ?><?php else: ?>
-  <span>read (<?php if ($this->options->jsq == '1'): ?><?php get_post_view($this) ?><?php endif; ?><?php if ($this->options->jsq == '2'): ?><?php $this->viewsNum(); ?><?php endif; ?>)</span> 
+  <span>read (<?php if ($this->options->jsq == '1'): ?><?php get_post_view($this) ?><?php endif; ?><?php if ($this->options->jsq == '2'): ?><?php $this->viewsNum(); ?><?php endif; ?>) </span> 
 <?php endif; ?>
       <?php if($this->user->hasLogin()):?>
   <a href="<?php $this->options->adminUrl(); ?>write-<?php if($this->is('post')): ?>post<?php else: ?>page<?php endif; ?>.php?cid=<?php echo $this->cid;?>" class="category-link"  target="_blank"><?php if ($this->options->cdl == '0'): ?>Edit<?php endif; ?><?php if ($this->options->cdl == '1'): ?>编辑<?php endif; ?></a>
@@ -132,7 +132,7 @@ text-center<?php else: ?>text-left<?php endif; ?>">
         
         
             <div class="post-footer-tags"><?php if (!empty($this->options->sidebarBlock) && in_array('bjq', $this->options->sidebarBlock)): ?>
-<div style="float:right">最后由<a href="<?php $this->author->permalink(); ?>"><?php $this->author(); ?></a>编辑于<?php echo gmdate('Y:m:d', $this->modified + Typecho_Widget::widget('Widget_Options')->timezone); ?>  <xa title="点我点我" id="ymzz" ></xa>
+<div style="float:right">最后由<a href="<?php $this->author->permalink(); ?>"><?php $this->author(); ?></a>编辑于<?php echo gmdate('Y/m/d', $this->modified + Typecho_Widget::widget('Widget_Options')->timezone); ?>  <xa title="点我点我" id="ymzz" ></xa>
 
 </div> <?php endif; ?> 
                 <span class="text-color-light text-small"><?php if ($this->options->cdl == '0'): ?>TAGGED IN<?php endif; ?><?php if ($this->options->cdl == '1'): ?>文章标签：<?php endif; ?></span><br/>

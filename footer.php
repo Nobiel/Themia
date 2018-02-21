@@ -1,10 +1,10 @@
        <footer id="footer" class="main-content-wrap">
 
 
-    <span class="copyrights"> 博客已萌萌哒运行<span id=span_dt_dt></span><br>
- &copy; 2016 <?php $this->options->title(); ?> /
- Power By <a  target="_blank"  href="http://typecho.org/">Typecho</a> 
-/ Designed By <a  target="_blank"  href="http://qqdie.com/">Jrotty</a>
+    <span class="copyrights"> 博客已萌萌哒运行<span id=span_dt_dt></span><br>若无特别申明，本站文章采用<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">知识共享署名-非商业性使用-相同方式共享 4.0 许可协议</a>进行许可。<br>
+ &copy; <?php echo date('Y'); ?> <?php $this->options->title(); ?> /
+ Powered by <a  target="_blank"  href="http://typecho.org/">Typecho</a> 
+/ Designed by <a  target="_blank"  href="http://qqdie.com/">Jrotty</a>
 / Loading time <?php timer_stop($this) ?>s
 / <?php $this->options->tongji(); ?></span>
 </footer>
