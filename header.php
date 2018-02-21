@@ -57,6 +57,7 @@ content="<?php showThumbnail($this); ?>"<?php else: ?>
  
  <!--STYLES--> <link rel="stylesheet" href="<?php $this->options->themeUrl('fontawesome.css'); ?>" type="text/css">
     <link rel="stylesheet" href="<?php $this->options->themeUrl('style.min.css'); ?>" type="text/css">
+    <link rel="stylesheet" href="<?php $this->options->themeUrl('styles.css'); ?>" type="text/css">
     <?php if($this->options->tf == 'open'||$this->options->tf == 'more'):?>
 <style>.postShorten-header {text-align: center;}</style>
 <?php endif; ?>
