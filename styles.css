@@ -2,14 +2,12 @@
     border: none;
     background-color: #252525!important;
     color: #252525!important;
-    cursor: help
 }
  
 .heimu:hover,.heimu:active {
-    color: #fff!important;
+    color: #FFF!important;
 }
  
 .heimu a:hover,a:hover .heimu {
     border: none;
-    cursor: pointer
 }
