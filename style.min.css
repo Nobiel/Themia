@@ -1084,6 +1084,7 @@ blockquote cite:before {
 #sidebar .sidebar-profile .sidebar-profile-picture {
   display: block;
   margin: 0 auto;
+  box-shadow: 0 0 10px #7f7775;
   transition: all .5s ease;
   -moz-transition: all .5s ease;
   -webkit-transition: all .5s ease;
