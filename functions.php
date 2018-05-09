@@ -249,7 +249,7 @@ function showThumbnail($widget)
 { 
     // 当文章无图片时的默认缩略图
     //$rand = rand(1,99); 
-    $random = $widget->widget('Widget_Options')->themeUrl . 'https://api.ikmoe.com/moeu-api.php';
+    $random = $widget->widget('Widget_Options')->'https://api.ikmoe.com/moeu-api.php';
    //$random = $widget->widget('Widget_Options')->themeUrl . '/img/sj/' . $rand . '.jpg'; // 随机缩略图路径
    // $random = $widget->widget('Widget_Options')->themeUrl . '/img/mr.jpg'; // 若只想要一张默认缩略图请删除本行开头的"//"
 
