@@ -1085,6 +1085,16 @@ blockquote cite:before {
   display: block;
   margin: 0 auto;
   transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  -webkit-transition: all .5s ease;
+  -o-transition: all .5s ease;
+}
+#sidebar .sidebar-profile .sidebar-profile-picture:hover {
+    transform:rotate(361deg);
+    -ms-transform:rotate(361deg);
+    -moz-transform:rotate(361deg);
+    -webkit-transform:rotate(361deg);
+    -o-transform:rotate(361deg); 
 }
 #sidebar ul.sidebar-buttons {
   padding: 0;
