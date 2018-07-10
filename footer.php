@@ -229,6 +229,18 @@ function setClipboardText(event) {
 <?php if (!empty($this->options->sidebarBlock) && in_array('kiana', $this->options->sidebarBlock)): ?>
 <script type="text/javascript" src="<?php $this->options->themeUrl('bga.min.js'); ?>"></script><?php endif; ?>
 
+<!--hitokoto-->
+<script>
+    $.getJSON("https://v1.hitokoto.cn/",function(data){ 
+      $("#textarea").text(data.hitokoto);
+    });
+    $(function(){
+      $("#textarea").click(function() {
+        $(this).select();
+      })
+    })
+</script>
+
 <div class="search_form">
         <form method="post" action="./" class="sosuo"> 
             <input class="search_key" name="s" autocomplete="off" placeholder="Enter search keywords..." type="text" value="" required="required">
