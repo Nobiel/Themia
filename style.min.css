@@ -1093,7 +1093,7 @@ blockquote cite:before {
     .sidebar-button-link {
     text-align: left;
     width: auto;
-    padding-left: 23px;
+    padding-left: 65px;
     padding-top: 0;
   }
   #sidebar[data-behavior="1"]
