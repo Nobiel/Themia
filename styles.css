@@ -11,3 +11,10 @@
 .heimu a:hover,a:hover .heimu {
     border: none;
 }
+
+p span.term {
+    background-color: LightGrey;
+    margin: 0 2px;
+    padding: 0 2px;
+    border-radius: 4px;
+}
