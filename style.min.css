@@ -1,13 +1,4 @@
 @charset "UTF-8";
-@media only screen and (min-width:1560px){
-  .main-content-wrap {
-      display: block;
-      max-width: 90%;
-      margin: 0 auto;
-      padding-right: 20px;
-      padding-left: 20px;
-  }
-}
 @media only screen and (min-width: 1024px) {
   ::-webkit-scrollbar {
     width: 8px;
@@ -2350,12 +2341,23 @@ a.tag--success:hover {
 a.fancybox {
   cursor: zoom-in !important;
 }
-.main-content-wrap {
+@media only screen and (min-width:1560px) {
+  .main-content-wrap {
+      display: block;
+      max-width: 90%;
+      margin: 0 auto;
+      padding-right: 20px;
+      padding-left: 20px;
+  }
+}
+@media only screen and (max-width:1559px) {
+  .main-content-wrap {
   display: block;
   max-width: 850px;
   margin: 0 auto;
   padding-right: 20px;
   padding-left: 20px;
+  }
 }
 @media only screen and (min-width: 1024px) {
   .markdown h1 {
