@@ -414,11 +414,10 @@
             color: #FCDEA0;
         }
         body a {
-            position: fixed;
-            left: 80vw;
-            top: 80vh;
+            position: relative;
+            top: 20vh;
             font-family: "SU_Light", "Segoe UI Light", "Segoe UI", sans-serif;
-            font-size: 3vw;
+            font-size: 2vw;
             font-weight: 90;
             color: #FCDEA0;
         }
@@ -440,7 +439,8 @@
         </style>
     </head>
     <body>
-        <div>Page Not Found...</div>
+        <div>Page Not Found...
         <a href="https://acgs.tech/">~ Back to homepage ~</a>
+        </div>
     </body>
 </html>
