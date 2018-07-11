@@ -725,7 +725,7 @@ blockquote cite:before {
     transform: translate3d(75px, 0, 0);
   }
 }
-@media only screen and (min-width: 1024px) and (max-width: 15599px) {
+@media only screen and (min-width: 1024px) and (max-width: 1559px) {
   #bottom-bar[data-behavior="3"],
   #bottom-bar[data-behavior="4"] {
     width: calc(100% - 15px * 2);
@@ -949,7 +949,7 @@ blockquote cite:before {
     transform: translate3d(75px, 0, 0);
   }
 }
-@media only screen and (min-width: 1024px) and (max-width: 15599px) {
+@media only screen and (min-width: 1024px) and (max-width: 1559px) {
   #main[data-behavior="3"],
   #main[data-behavior="4"] {
     padding-top: 70px;
@@ -1402,7 +1402,7 @@ blockquote cite:before {
     transform: translate3d(75px, 0, 0);
   }
 }
-@media only screen and (min-width: 1024px) and (max-width: 15599px) {
+@media only screen and (min-width: 1024px) and (max-width: 1559px) {
   #sidebar[data-behavior="1"] {
     width: 250px;
   }
