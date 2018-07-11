@@ -2353,7 +2353,7 @@ a.fancybox {
 @media only screen and (max-width:1559px) {
   .main-content-wrap {
   display: block;
-  max-width: 850px;
+  max-width: 90%;
   margin: 0 auto;
   padding-right: 20px;
   padding-left: 20px;
