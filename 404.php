@@ -2,6 +2,7 @@
 <html lang="en">
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>404 Page Not Found</title> 
 <style type="text/css">
         @font-face {
@@ -404,7 +405,7 @@
                 PPL711udbgtF4RnM7+7v9d6XlmAUgQ8zIf8xJw3EBGazOf8zof80AQAhvw80Af9EI/9ERf9EZ/9Eif9D9PAg5wBE7/9FAf9VI/9VRf9VZ/9VUfAkNwN1xPQl3/9V4vAwRwAlhf9mZ/9m\
                 if9mq/MfZs3/Zu//Zw7/TKpvR0X/dAHwJAsPMzP72z+AN6//eAL/Ni8Orh0NADYPdHH+/WEAgAOw==');
         }
-        body div {
+        div {
             position: fixed;
             left: 25vw;
             top: 20vh;
@@ -413,13 +414,27 @@
             font-weight: 100;
             color: #FCDEA0;
         }
-        body a {
+        @media only screen and (min-width:769px) {
+            a {
             position: relative;
-            top: 20vh;
+            top: 12vh;
+            left: -32vw;
             font-family: "SU_Light", "Segoe UI Light", "Segoe UI", sans-serif;
             font-size: 2vw;
             font-weight: 90;
             color: #FCDEA0;
+            }
+        }
+        @media only screen and (max-width:768px) {
+            a {
+            position: relative;
+            top: 7vh;
+            left: -33vw;
+            font-family: "SU_Light", "Segoe UI Light", "Segoe UI", sans-serif;
+            font-size: 2vw;
+            font-weight: 90;
+            color: #FCDEA0;
+            }
         }
     </style>
     <!--[if IE 9]>
