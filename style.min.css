@@ -1,4 +1,13 @@
 @charset "UTF-8";
+@media only screen and (min-width:1560px){
+  .main-content-wrap {
+      display: block;
+      max-width: 90%;
+      margin: 0 auto;
+      padding-right: 20px;
+      padding-left: 20px;
+  }
+  }
 @media only screen and (min-width: 1024px) {
   ::-webkit-scrollbar {
     width: 8px;
@@ -273,7 +282,6 @@ table th {
   font-weight: 700;
 }
 #sidebar,
-body,
 code,
 html {
   font-family: "Open Sans", Helvetica, "Microsoft Yahei", sans-serif;
@@ -352,72 +360,6 @@ body {
   background: rgba(17, 26, 35, 0);
 }
 @font-face {
-  font-family: "Noto Sans SC";
-  font-style: normal;
-  font-weight: 100;
-  src: url(//fonts-gstatic.lug.ustc.edu.cn/ea/notosanssc/v1/NotoSansSC-Thin.woff2)
-      format("woff2"),
-    url(//fonts-gstatic.lug.ustc.edu.cn/ea/notosanssc/v1/NotoSansSC-Thin.woff)
-      format("woff"),
-    url(//fonts-gstatic.lug.ustc.edu.cn/ea/notosanssc/v1/NotoSansSC-Thin.otf)
-      format("opentype");
-}
-@font-face {
-  font-family: "Noto Sans SC";
-  font-style: normal;
-  font-weight: 300;
-  src: url(//fonts-gstatic.lug.ustc.edu.cn/ea/notosanssc/v1/NotoSansSC-Light.woff2)
-      format("woff2"),
-    url(//fonts-gstatic.lug.ustc.edu.cn/ea/notosanssc/v1/NotoSansSC-Light.woff)
-      format("woff"),
-    url(//fonts-gstatic.lug.ustc.edu.cn/ea/notosanssc/v1/NotoSansSC-Light.otf)
-      format("opentype");
-}
-@font-face {
-  font-family: "Noto Sans SC";
-  font-style: normal;
-  font-weight: 400;
-  src: url(//fonts-gstatic.lug.ustc.edu.cn/ea/notosanssc/v1/NotoSansSC-Regular.woff2)
-      format("woff2"),
-    url(//fonts-gstatic.lug.ustc.edu.cn/ea/notosanssc/v1/NotoSansSC-Regular.woff)
-      format("woff"),
-    url(//fonts-gstatic.lug.ustc.edu.cn/ea/notosanssc/v1/NotoSansSC-Regular.otf)
-      format("opentype");
-}
-@font-face {
-  font-family: "Noto Sans SC";
-  font-style: normal;
-  font-weight: 500;
-  src: url(//fonts-gstatic.lug.ustc.edu.cn/ea/notosanssc/v1/NotoSansSC-Medium.woff2)
-      format("woff2"),
-    url(//fonts-gstatic.lug.ustc.edu.cn/ea/notosanssc/v1/NotoSansSC-Medium.woff)
-      format("woff"),
-    url(//fonts-gstatic.lug.ustc.edu.cn/ea/notosanssc/v1/NotoSansSC-Medium.otf)
-      format("opentype");
-}
-@font-face {
-  font-family: "Noto Sans SC";
-  font-style: normal;
-  font-weight: 700;
-  src: url(//fonts-gstatic.lug.ustc.edu.cn/ea/notosanssc/v1/NotoSansSC-Bold.woff2)
-      format("woff2"),
-    url(//fonts-gstatic.lug.ustc.edu.cn/ea/notosanssc/v1/NotoSansSC-Bold.woff)
-      format("woff"),
-    url(//fonts-gstatic.lug.ustc.edu.cn/ea/notosanssc/v1/NotoSansSC-Bold.otf)
-      format("opentype");
-}
-@font-face {
-  font-family: "Noto Sans SC";
-  font-style: normal;
-  font-weight: 900;
-  src: url(//fonts-gstatic.lug.ustc.edu.cn/ea/notosanssc/v1/NotoSansSC-Black.woff2)
-      format("woff2"),
-    url(//fonts-gstatic.lug.ustc.edu.cn/ea/notosanssc/v1/NotoSansSC-Black.woff)
-      format("woff"),
-    url(//fonts-gstatic.lug.ustc.edu.cn/ea/notosanssc/v1/NotoSansSC-Black.otf)
-      format("opentype");
-}
-@font-face {
   font-family: Lato;
   font-style: normal;
   font-weight: 400;
@@ -445,6 +387,7 @@ html {
   tap-highlight-color: transparent;
 }
 body {
+  font-family: -apple-system, "Helvetica Neue", Helvetica, "Nimbus Sans L", Arial, "Liberation Sans", "PingFang SC", "Hiragino Sans GB", "Source Han Sans CN", "Source Han Sans SC", "Microsoft YaHei", "Wenquanyi Micro Hei", "WenQuanYi Zen Hei", "ST Heiti", SimHei, "WenQuanYi Zen Hei Sharp", sans-serif;
   width: 100%;
   padding: 0;
   background: #fff;
@@ -464,8 +407,6 @@ h4,
 h5,
 h6 {
   letter-spacing: -0.04em;
-  font-family: Lato, Noto Sans SC, Helvetica Neue, Microsoft Yahei, Arial,
-    "Microsoft Yahei", sans-serif;
   font-weight: 500;
   line-height: 1.45em;
   color: #4a4a4a;
@@ -784,7 +725,7 @@ blockquote cite:before {
     transform: translate3d(75px, 0, 0);
   }
 }
-@media only screen and (min-width: 1024px) and (max-width: 1559px) {
+@media only screen and (min-width: 1024px) and (max-width: 15599px) {
   #bottom-bar[data-behavior="3"],
   #bottom-bar[data-behavior="4"] {
     width: calc(100% - 15px * 2);
@@ -819,7 +760,7 @@ blockquote cite:before {
     transform: translate3d(75px, 0, 0);
   }
 }
-@media only screen and (min-width: 1560px) {
+@media only screen and (min-width: 15600px) {
   #bottom-bar[data-behavior="3"],
   #bottom-bar[data-behavior="4"] {
     width: calc(100% - 15px * 2);
@@ -1008,7 +949,7 @@ blockquote cite:before {
     transform: translate3d(75px, 0, 0);
   }
 }
-@media only screen and (min-width: 1024px) and (max-width: 1559px) {
+@media only screen and (min-width: 1024px) and (max-width: 15599px) {
   #main[data-behavior="3"],
   #main[data-behavior="4"] {
     padding-top: 70px;
@@ -1036,7 +977,7 @@ blockquote cite:before {
     transform: translate3d(75px, 0, 0);
   }
 }
-@media only screen and (min-width: 1560px) {
+@media only screen and (min-width: 15600px) {
   #main[data-behavior="3"],
   #main[data-behavior="4"] {
     padding-top: 70px;
@@ -1461,7 +1402,7 @@ blockquote cite:before {
     transform: translate3d(75px, 0, 0);
   }
 }
-@media only screen and (min-width: 1024px) and (max-width: 1559px) {
+@media only screen and (min-width: 1024px) and (max-width: 15599px) {
   #sidebar[data-behavior="1"] {
     width: 250px;
   }
@@ -1488,7 +1429,7 @@ blockquote cite:before {
     .sidebar-button-link {
     text-align: left;
     width: auto;
-    padding-left: 23px;
+    padding-left: 65px;
     padding-top: 0;
   }
   #sidebar[data-behavior="1"]
@@ -1687,7 +1628,7 @@ blockquote cite:before {
     transform: translate3d(75px, 0, 0);
   }
 }
-@media only screen and (min-width: 1560px) {
+@media only screen and (min-width: 15600px) {
   #sidebar[data-behavior="1"] {
     width: calc(550px - 200px);
     padding-left: 100px;
@@ -2082,8 +2023,6 @@ figure.highlight .gutter {
 }
 .caption {
   display: block;
-  font-family: Lato, Noto Sans SC, Helvetica Neue, Microsoft Yahei, Arial,
-    "Microsoft Yahei", sans-serif;
   font-size: 1.3rem;
   color: #81929d;
   text-align: center;
@@ -2345,8 +2284,6 @@ figure.highlight .line {
 .post .post-content,
 .post .post-meta,
 .post-header-cover .post-header .post-meta {
-  font-family: Lato, Noto Sans SC, Helvetica Neue, Microsoft Yahei, Arial,
-    "Microsoft Yahei", sans-serif;
   font-weight: 400;
 }
 .image-gallery .image-gallery-photos .photo-box {
@@ -2523,7 +2460,6 @@ a.fancybox {
 }
 .post .post-content {
   text-rendering: optimizelegibility;
-  letter-spacing: -0.3px;
   color: #5d686f;
   margin-top: 20px;
   overflow: hidden;
@@ -2792,16 +2728,13 @@ a.fancybox {
 .postShorten .postShorten-excerpt_link,
 .postShorten .postShorten-meta,
 .postShorten .postShorten-readingtime {
-  font-family: Lato, Helvetica Neue, Arial, "Microsoft Yahei", sans-serif;
+  font-family: -apple-system, "Helvetica Neue", Helvetica, "Nimbus Sans L", Arial, "Liberation Sans", "PingFang SC", "Hiragino Sans GB", "Source Han Sans CN", "Source Han Sans SC", "Microsoft YaHei", "Wenquanyi Micro Hei", "WenQuanYi Zen Hei", "ST Heiti", SimHei, "WenQuanYi Zen Hei Sharp", sans-serif;
   font-size: 1.3rem;
   font-weight: 400;
 }
 .postShorten .postShorten-content,
 .postShorten .postShorten-excerpt {
   text-rendering: optimizelegibility;
-  letter-spacing: -0.3px;
-  font-family: Lato, Noto Sans SC, Helvetica Neue, Microsoft Yahei, Arial,
-    "Microsoft Yahei", sans-serif;
   color: #5d686f;
   font-weight: 400;
   overflow: hidden;
