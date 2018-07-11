@@ -404,13 +404,22 @@
                 PPL711udbgtF4RnM7+7v9d6XlmAUgQ8zIf8xJw3EBGazOf8zof80AQAhvw80Af9EI/9ERf9EZ/9Eif9D9PAg5wBE7/9FAf9VI/9VRf9VZ/9VUfAkNwN1xPQl3/9V4vAwRwAlhf9mZ/9m\
                 if9mq/MfZs3/Zu//Zw7/TKpvR0X/dAHwJAsPMzP72z+AN6//eAL/Ni8Orh0NADYPdHH+/WEAgAOw==');
         }
-        #msg {
+        body div {
             position: fixed;
             left: 25vw;
             top: 20vh;
             font-family: "SU_Light", "Segoe UI Light", "Segoe UI", sans-serif;
             font-size: 5vw;
             font-weight: 100;
+            color: #FCDEA0;
+        }
+        body a {
+            position: fixed;
+            left: 80vw;
+            top: 80vh;
+            font-family: "SU_Light", "Segoe UI Light", "Segoe UI", sans-serif;
+            font-size: 3vw;
+            font-weight: 90;
             color: #FCDEA0;
         }
     </style>
@@ -431,6 +440,7 @@
         </style>
     </head>
     <body>
-        <div id="msg">No Page Found...</div>
+        <div>Page Not Found...</div>
+        <a href="https://acgs.tech/">~ Back to homepage ~</a>
     </body>
 </html>
