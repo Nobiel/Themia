@@ -382,7 +382,7 @@ body {
   width: 100%;
   padding: 0;
   background: #fff;
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   line-height: 1.9em;
   letter-spacing: 0.01em;
   -webkit-font-smoothing: subpixel-antialiased;
@@ -400,7 +400,7 @@ h6 {
   letter-spacing: -0.04em;
   font-weight: 500;
   line-height: 1.45em;
-  color: #4a4a4a;
+  color: #222;
 }
 code,
 pre > code {
@@ -2462,7 +2462,7 @@ a.fancybox {
 }
 .post .post-content {
   text-rendering: optimizelegibility;
-  color: #5d686f;
+  color: #333;
   margin-top: 20px;
   overflow: hidden;
   -webkit-hypens: auto;
