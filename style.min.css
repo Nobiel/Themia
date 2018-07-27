@@ -485,7 +485,7 @@ pre > code {
   cursor: text;
   overflow-x: auto;
   line-height: 1.6em;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
 }
 #about,
 #bottom-bar {
@@ -4018,13 +4018,13 @@ img#erwei_qr {
 }
 .search_form input {
   width: 100%;
-  background: 0 0;
-  border: 0;
-  padding: 0 2% 6px 48px;
-  margin: auto;
+  background: #ffffffad 0 0;
+  border: 2px solid #a1a1a1;
+  padding: 10px 40px;
+  border-radius: 25px;
+  -moz-border-radius: 25px;
   line-height: 24px;
   height: 24px;
-  border-bottom: 2px solid #666;
   color: #333;
   outline: 0;
   font-size: 18px;
@@ -4033,8 +4033,8 @@ img#erwei_qr {
   position: relative;
   background: 0 0;
   border: 0;
-  left: 0;
-  top: -53px;
+  left: 5px;
+  top: -55px;
   height: 62px;
   width: 36px;
 }
@@ -4089,7 +4089,8 @@ img#erwei_qr {
   left: 0;
   right: 0;
   z-index: 3;
-  background: #fff;
+  background: top right fixed url(https://wx2.sinaimg.cn/large/6273c3b7ly1ftosfkg9e3g218g0zk7mt.gif);
+  background-size: cover;
   animation: search 0.4s;
 }
 @keyframes search {
